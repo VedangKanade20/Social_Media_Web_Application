@@ -44,7 +44,7 @@ const PostsWidget = ({ userId, isProfile = false }) => {
     } else {
       getPosts();
     }
-  }, [isProfile, userId, token]); // Include dependencies in the dependency array
+  }, []); // Include dependencies in the dependency array
 
   return (
     <>
